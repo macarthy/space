@@ -14,13 +14,14 @@
 		32831E1F1A5AF5A600943C73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32831E1E1A5AF5A600943C73 /* main.m */; };
 		32831E231A5AF5A600943C73 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32831E221A5AF5A600943C73 /* OWAppDelegate.m */; };
 		32831E261A5AF5A600943C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32831E241A5AF5A600943C73 /* Main.storyboard */; };
-		32831E291A5AF5A600943C73 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32831E281A5AF5A600943C73 /* OWViewController.m */; };
 		32831E2B1A5AF5A600943C73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32831E2A1A5AF5A600943C73 /* Images.xcassets */; };
 		32831E321A5AF5A700943C73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32831E311A5AF5A700943C73 /* XCTest.framework */; };
 		32831E331A5AF5A700943C73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32831E121A5AF5A600943C73 /* Foundation.framework */; };
 		32831E341A5AF5A700943C73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32831E161A5AF5A600943C73 /* UIKit.framework */; };
 		32831E3C1A5AF5A700943C73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32831E3A1A5AF5A700943C73 /* InfoPlist.strings */; };
 		32831E3E1A5AF5A700943C73 /* Out_of_this_worldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32831E3D1A5AF5A700943C73 /* Out_of_this_worldTests.m */; };
+		32831E491A5AF66C00943C73 /* OWOutetSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32831E481A5AF66C00943C73 /* OWOutetSpaceTableViewController.m */; };
+		32831E4C1A5B88D600943C73 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 32831E4B1A5B88D600943C73 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		32831E211A5AF5A600943C73 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
 		32831E221A5AF5A600943C73 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
 		32831E251A5AF5A600943C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32831E271A5AF5A600943C73 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
-		32831E281A5AF5A600943C73 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
 		32831E2A1A5AF5A600943C73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		32831E301A5AF5A700943C73 /* Out of this worldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this worldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32831E311A5AF5A700943C73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		32831E391A5AF5A700943C73 /* Out of this worldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this worldTests-Info.plist"; sourceTree = "<group>"; };
 		32831E3B1A5AF5A700943C73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32831E3D1A5AF5A700943C73 /* Out_of_this_worldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_worldTests.m; sourceTree = "<group>"; };
+		32831E471A5AF66C00943C73 /* OWOutetSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OWOutetSpaceTableViewController.h; path = ../OWOutetSpaceTableViewController.h; sourceTree = "<group>"; };
+		32831E481A5AF66C00943C73 /* OWOutetSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OWOutetSpaceTableViewController.m; path = ../OWOutetSpaceTableViewController.m; sourceTree = "<group>"; };
+		32831E4A1A5B88D600943C73 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		32831E4B1A5B88D600943C73 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +117,9 @@
 			children = (
 				32831E211A5AF5A600943C73 /* OWAppDelegate.h */,
 				32831E221A5AF5A600943C73 /* OWAppDelegate.m */,
+				32831E471A5AF66C00943C73 /* OWOutetSpaceTableViewController.h */,
+				32831E481A5AF66C00943C73 /* OWOutetSpaceTableViewController.m */,
 				32831E241A5AF5A600943C73 /* Main.storyboard */,
-				32831E271A5AF5A600943C73 /* OWViewController.h */,
-				32831E281A5AF5A600943C73 /* OWViewController.m */,
 				32831E2A1A5AF5A600943C73 /* Images.xcassets */,
 				32831E191A5AF5A600943C73 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		32831E191A5AF5A600943C73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32831E4A1A5B88D600943C73 /* AstronomicalData.h */,
+				32831E4B1A5B88D600943C73 /* AstronomicalData.m */,
 				32831E1A1A5AF5A600943C73 /* Out of this world-Info.plist */,
 				32831E1B1A5AF5A600943C73 /* InfoPlist.strings */,
 				32831E1E1A5AF5A600943C73 /* main.m */,
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32831E491A5AF66C00943C73 /* OWOutetSpaceTableViewController.m in Sources */,
 				32831E231A5AF5A600943C73 /* OWAppDelegate.m in Sources */,
-				32831E291A5AF5A600943C73 /* OWViewController.m in Sources */,
 				32831E1F1A5AF5A600943C73 /* main.m in Sources */,
+				32831E4C1A5B88D600943C73 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
